@@ -50,7 +50,6 @@ def update_driver_stats(
             logger.info(f"Updated {stat_name} (StatID {stat_id}): {after[0]['Val']}")
         else:
             logger.warning(f"Failed to fetch updated value for {stat_name} (StatID {stat_id})")
-    # TODO: map the before to our driver class
 
 
 def load_drivers(json_file: str) -> Dict[int, Dict[str, Any]]:

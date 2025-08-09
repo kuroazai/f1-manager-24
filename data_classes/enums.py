@@ -66,6 +66,7 @@ class BuildingEnumsTypes(IntEnum):
     BOARD_ROOM = 15
     MEDICAL_BAY_UPGRADE = 16
 
+
 class BuildingStates(IntEnum):
     CONSTRUCTING = 1
     OPEN = 2
@@ -90,3 +91,11 @@ class PartsEnumStats(IntEnum):
     AirFlowMiddle = 13
     OperationalRange = 14
     Durability = 15
+
+
+class DifficultyLevels(IntEnum):
+    VERYEASY = 0
+    EASY = 1
+    MEDIUM = 2
+    HARD = 3
+    VERYHARD = 4
