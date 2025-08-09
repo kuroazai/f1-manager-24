@@ -1,5 +1,6 @@
 from enum import IntEnum
 
+
 class PerformanceStatTypes(IntEnum):
     CHASSIS = 0
     FRONT_WING_AND_NOSE = 1
@@ -45,3 +46,47 @@ class PerformanceStatTypes(IntEnum):
     WHEEL_OFF = 41
     WHEEL_ON = 42
     COMPOSURE = 43
+
+
+class BuildingEnumsTypes(IntEnum):
+    WEATHER_CENTRE = 1
+    DESIGN_CENTRE = 2
+    FACTORY = 3
+    RACE_SIMULATOR = 4
+    WIND_TUNNEL = 5
+    CFD_SIMULATOR = 6
+    SUSPENSION_SIMULATOR = 7
+    CAR_PART_TEST_CENTRE = 8
+    TEAM_HUB = 9
+    HELIPAD = 10
+    MEMORABILIA_ROOM = 11
+    TOUR_CENTRE = 12
+    HOSPITALITY_AREA = 13
+    SCOUTING_DEPARTMENT = 14
+    BOARD_ROOM = 15
+    MEDICAL_BAY_UPGRADE = 16
+
+class BuildingStates(IntEnum):
+    CONSTRUCTING = 1
+    OPEN = 2
+    REFURBISHING = 3
+    UPGRADING = 4
+
+
+class PartsEnumStats(IntEnum):
+    AirFlowFront = 0
+    AirFlowTolerance = 1
+    TyrePreservation = 2
+    DRSDelta = 3
+    DragReduction = 4
+    EngineCooling = 5
+    FuelEfficiency = 6
+    LowSpeedDownforce = 7
+    MedSpeedDownforce = 8
+    HighSpeedDownforce = 9
+    Power = 10
+    DEPRECATED_PerformanceThreshold = 11
+    DEPRECATED_PerformanceLoss = 12
+    AirFlowMiddle = 13
+    OperationalRange = 14
+    Durability = 15
