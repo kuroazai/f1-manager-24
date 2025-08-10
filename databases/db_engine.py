@@ -12,6 +12,8 @@ class SQLiteDB:
             self.conn.row_factory = sqlite3.Row
 
     def close(self) -> None:
+        self.conn.commit()
+
         if self.conn:
             self.conn.close()
             self.conn = None
