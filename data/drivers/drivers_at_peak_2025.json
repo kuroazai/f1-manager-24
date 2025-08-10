@@ -463,5 +463,20 @@
     "Aggression": 22,
     "Marketability": 82,
     "OVR": 84
+  },
+  "Mick Schumacher": {
+    "Cornering": 86,
+    "Braking": 86,
+    "Control": 87,
+    "Smoothness": 85,
+    "Adaptability": 87,
+    "Overtaking": 85,
+    "Defence": 85,
+    "Acceleration": 87,
+    "Accuracy": 86,
+    "Growth": 88,
+    "Aggression": 22,
+    "Marketability": 88,
+    "OVR": 86
   }
 }
