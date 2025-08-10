@@ -99,3 +99,15 @@ class DifficultyLevels(IntEnum):
     MEDIUM = 2
     HARD = 3
     VERYHARD = 4
+
+
+class PartsEnumType(IntEnum):
+    Engine = 0
+    ERS = 1
+    Gearbox = 2
+    Body = 3
+    FrontWing = 4
+    RearWing = 5
+    SidePods = 6
+    Floor = 7
+    Suspension = 8
