@@ -1,21 +1,27 @@
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-venv/
-env/
-.venv/
-.env/
-
-.vscode/
-.idea/
-
-.DS_Store
+# Save databases and backups are game data, not source. Never commit them.
 *.db
+*.db-journal
+*.db-wal
+backups/
 
-*.log
-
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
 build/
 dist/
-*.egg-info/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytest-tmp/
+.coverage
+htmlcov/
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
